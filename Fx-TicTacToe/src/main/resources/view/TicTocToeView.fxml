@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="608.0" prefWidth="505.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.edu.game.fxtictactoe.TicTacController">
+   <children>
+      <JFXButton layoutX="90.0" layoutY="464.0" onAction="#restartGame" prefHeight="46.0" prefWidth="334.0" style="-fx-background-color: black;" text="Restart Game" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Button fx:id="button1" layoutX="90.0" layoutY="107.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="201.0" layoutY="107.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="313.0" layoutY="107.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="91.0" layoutY="216.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="202.0" layoutY="216.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="314.0" layoutY="216.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="91.0" layoutY="325.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="202.0" layoutY="325.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="314.0" layoutY="325.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="107.0" style="-fx-background-color: #f8fafc; -fx-border-color: #e2e8f0; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="184.0" layoutY="28.0" text="Lets Play">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="542.0" text="Winner is : ">
+         <font>
+            <Font name="Forte" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="winnerLbl" layoutX="257.0" layoutY="547.0" text="AI Player">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
